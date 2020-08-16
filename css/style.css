@@ -1,1 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); 
+
+/*-------------------------------------------------*/
+/*----------------BASIC------------------*/
+/*-------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/css/img/bg.jpg);
+    color: #555555;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*-------------------------------------------------*/
+/*----------------HEADER------------------*/
+/*-------------------------------------------------*/
+
+header {  
+    background-color: purple;
+    width: 20%;
+    height: 80vh;
+    position: absolute;
+    left: 75%;
+}
+
+.main-nav {
+    text-align: center;
+    margin-top: 50%;
+}
+
+.main-nav li {
+    margin-bottom: 3em;
+}
+
+.main-nav a {
+    color: #ffffff;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: yellow;
+    transition: color .2s
+}
+
