@@ -12,13 +12,18 @@
 
 body {
     background-image: url(/css/img/bg.jpg);
-    color: #555555;
+    color: #ffffff;
     font-family: 'Lato',Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+/*----------------REUSE------------------*/
 
 a {
     text-decoration: none;
@@ -27,6 +32,27 @@ a {
 ul {
     list-style: none;
 }
+
+.row {
+    width: 75%;
+    text-align: center;
+}
+
+p {
+    line-height: 145%;
+    font-size: 150%;
+}
+
+section {
+    padding: 10em 10em 0 10em;
+}
+
+/*----------------ICONS------------------*/
+
+/* .icon-short{
+    font-size: 2em;
+    margin-right: .5em;
+} */
 
 /*-------------------------------------------------*/
 /*----------------HEADER------------------*/
@@ -38,6 +64,7 @@ header {
     height: 80vh;
     position: absolute;
     left: 75%;
+    position: fixed;
 }
 
 .main-nav {
@@ -60,3 +87,74 @@ header {
     transition: color .2s
 }
 
+/*-------------------------------------------------*/
+/*----------------PROFILE------------------*/
+/*-------------------------------------------------*/
+
+/* .section-profile {
+    padding: 10em;
+} */
+
+/* .section-profile p {
+    font-size: 150%;
+} */
+
+.profile-pic img {
+    height: 15em;
+    border-radius: 50em;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.info article {
+    width: 35%;
+}
+
+.info h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+    color: red;
+}
+
+.text-copy {
+    width: 70%;
+    margin: 2em auto 0 auto;
+}
+
+/*-------------------------------------------------*/
+/*----------------SKILLS------------------*/
+/*-------------------------------------------------*/
+
+/* .profile-box {
+    display: flex;
+    justify-content: center;
+} */
+
+.icon-skill i{
+    color: #555555;
+    font-size: 5em;
+}
+
+.icon-skill {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+
+/*-------------------------------------------------*/
+/*----------------PROJECT------------------*/
+/*-------------------------------------------------*/
+
+.project-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.project-box img {
+    height: 15em;
+}
