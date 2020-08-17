@@ -1,23 +1,30 @@
+/*----------------HEADING------------------*/
 
+h1,h2,h3 {
+    text-transform: uppercase; 
+    word-spacing: 2px;
+}
 
+h1 {
+    font-size: 350%;
+    letter-spacing: 4px;
+    margin: 0;
+    padding-top: 2em;
+}
 
-
-
-/*----------------ICONS------------------*/
-
-/* .icon-short{
-    font-size: 2em;
-    margin-right: .5em;
-} */
+h2 {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
 
 /*-------------------------------------------------*/
 /*----------------HEADER------------------*/
 /*-------------------------------------------------*/
 
 header {  
-    background-color: purple;
+    background-color: #e6331f;
     width: 20%;
-    height: 80vh;
+    height: 70vh;
     position: absolute;
     left: 75%;
     position: fixed;
@@ -47,48 +54,76 @@ header {
 /*----------------PROFILE------------------*/
 /*-------------------------------------------------*/
 
-/* .section-profile {
-    padding: 10em;
-} */
+.section-profile {
+    height: 100vh;
+}
 
-/* .section-profile p {
-    font-size: 150%;
-} */
+.profile-pic {
+    margin-top: 3em;
+}
 
-.profile-pic img {
+.profile-pic {
     height: 15em;
     border-radius: 50em;
 }
 
-.info {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2em;
+.section-profile article {
+    margin-top: 3em;
 }
 
-.info article {
-    width: 35%;
+.section-profile h2 {
+    font-size: 250%;
+    color: #e6331f;
 }
 
-.info h2 {
-    font-size: 200%;
+.article-about h3{
+    margin-top: 1em;
+    letter-spacing: 1px;
+    font-size: 150%;
+}
+
+.article-about p {
     text-transform: uppercase;
-    color: red;
+    margin-top: .5em;
 }
 
-.text-copy {
+/* .text-copy {
     width: 70%;
     margin: 2em auto 0 auto;
+} */
+
+/*-------------------------------------------------*/
+/*----------------ABOUT------------------*/
+/*-------------------------------------------------*/
+
+.section-about h2 {
+    font-size: 300%;
+    color: yellow;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
+
+.section-about p {
+    margin-top: 2em;
+    text-align: justify;
+}
+
 
 /*-------------------------------------------------*/
 /*----------------SKILLS------------------*/
 /*-------------------------------------------------*/
 
-/* .profile-box {
-    display: flex;
-    justify-content: center;
-} */
+.section-skill p {
+    margin-top: 2em;
+    text-align: justify;
+}
+
+.section-skill h2 {
+    font-size: 300%;
+    color: yellow;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
 
 .icon-skill i{
     color: #555555;
@@ -101,16 +136,41 @@ header {
     margin: 3em;
 }
 
+.resume-btn {
+    display: block;
+    width: 8em;
+    margin: 2em auto;
+}
+
+.icon-prog {
+    color: yellow;
+}
+
+.article-design {
+    margin-top: 5em;
+}
+
 /*-------------------------------------------------*/
 /*----------------PROJECT------------------*/
 /*-------------------------------------------------*/
 
+.section-projects h2 {
+    font-size: 300%;
+    color: yellow;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-bottom: .5em;
+}
+
 .project-box {
+    margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    grid-gap: 2em;
 }
 
 .project-box img {
-    height: 15em;
+    height: 20em;
+    max-width: 100%;
 }
+

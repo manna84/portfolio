@@ -44,5 +44,93 @@ p {
 }
 
 section {
-    padding: 10em 10em 0 10em;
+    padding: 0 15em 10em 15em;
+}
+
+/*----------------BUTTONS------------------*/
+
+.btn {
+    border: 2px solid #e6331f;
+    padding: 1% 3%;
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/*-------------------------------------------------*/
+/*----------------FOOTER------------------*/
+/*-------------------------------------------------*/
+
+footer {
+    height: 25vh;
+    background-color: teal;
+    padding: 3%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+}
+
+.footer-links li {
+    margin-left: 3em;
+}
+
+.footer-links a {
+    font-size: 120%;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+    transition: color .2s;
+}
+
+.social-links li {
+    margin-right: 3em;
+}
+
+.social-links i {
+    font-size: 2em;
+    color: yellow;
+}
+
+.footer-copy {
+    display: block;
+    text-align: center;
+    margin-top: 3em;
+    font-weight: 100;
+    color: yellow;
+}
+
+.social-links .linkedin:hover {
+    color: #007bb5;
+    transition: color .2s;
+}
+
+.social-links .facebook:hover {
+    color: #3b5998;
+    transition: color .2s;
+}
+
+.social-links .twitter:hover {
+    color: #55acee;
+    transition: color .2s;
+}
+
+.social-links .github:hover {
+    color: #000000;
+    transition: color .2s;
+}
+
+.social-links .instagram:hover {
+    color: #e95950;
+    transition: color .2s;
 }
