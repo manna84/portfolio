@@ -32,7 +32,7 @@ header {
 
 .main-nav {
     text-align: center;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 .main-nav li {
@@ -48,6 +48,11 @@ header {
 .main-nav a:hover {
     color: yellow;
     transition: color .2s
+}
+
+.logo {
+    height: 7em;
+    margin-bottom: 2em;
 }
 
 /*-------------------------------------------------*/
@@ -140,6 +145,11 @@ header {
     display: block;
     width: 8em;
     margin: 2em auto;
+}
+
+.resume-btn:hover {
+    background-color: #e6331f;
+    transition: background-color .2s;
 }
 
 .icon-prog {
